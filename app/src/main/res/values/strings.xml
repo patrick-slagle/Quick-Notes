@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quick Notes</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_button">Save Note</string>
+    <string name="delete_button">Delete Note</string>
+    <string name="logo">Notepad Logo</string>
+    <string name="menu_desc">Menu</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="menu_title">Choose Note</string>
+    <string name="bullet">Bullet List</string>
+    <string name="mail_symbol">Mail Symbol</string>
+    <string name="delete_title">Choose a File to Delete</string>
+    <string name="clear">Clear the Note</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+The main EditText that covers the entire activity.
+It is attached to the LinedEditor class which
+gives it the "notepad" look.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <view
+        class = "com.patrickslagle.notepad.NewNote$LinedEditor"
+        android:id="@+id/note"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/yellow"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:paddingLeft="60dp"
+        android:paddingStart="60dp"
+        android:paddingTop= "25dp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <include layout="@layout/bottom_border"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:id="@+id/bottom_border"
+        android:layout_alignBottom="@+id/note"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
